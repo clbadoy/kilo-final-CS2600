@@ -74,7 +74,6 @@ struct editorConfig E;
 
 void editorSetStatusMessage(const char *fmt, ...);
 void editorRefreshScreen();
-char *editorPrompt(char *prompt);
 char *editorPrompt(char *prompt, void (*callback)(char *, int));
 
 /*** terminal ***/
