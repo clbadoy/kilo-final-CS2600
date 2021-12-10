@@ -605,6 +605,7 @@ void editorDrawRows(struct abuf *ab) {
             abAppend(ab, "\x1b[39m", 5);
         }
 
+
         abAppend(ab, "\x1b[K", 3);
         abAppend(ab, "\r\n", 2);
     }
